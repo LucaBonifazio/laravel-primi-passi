@@ -1,3 +1,9 @@
+@php
+
+$name = 'Laravel';
+
+@endphp
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -68,7 +74,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    First match with <span style= "color: red">Laravel</span>
+                    First match with <span style= "color: red">{{$name}}</span>
                 </div>
 
                 <div class="links">
